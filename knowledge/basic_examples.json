@@ -1,0 +1,950 @@
+{
+  "examples": [
+    {
+      "name": "vertical_full_valley_fold_all_layers",
+      "covers": [
+        "valley fold",
+        "half fold",
+        "flat fold",
+        "all-layer fold"
+      ],
+      "commands": [
+        {
+          "command_name": "fold",
+          "parameters": {
+            "fold_infos": [
+              {
+                "crease_line_edge1": [
+                  0,
+                  -0.9
+                ],
+                "crease_line_edge2": [
+                  0,
+                  0.9
+                ],
+                "source_point": [
+                  0.8,
+                  0
+                ],
+                "target_point": [
+                  -0.8,
+                  0
+                ],
+                "source_layers": [
+                  "all"
+                ],
+                "theta": 180,
+                "fold_type": "valley"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "horizontal_full_mountain_fold_top_layer",
+      "covers": [
+        "mountain fold",
+        "top-layer fold"
+      ],
+      "commands": [
+        {
+          "command_name": "fold",
+          "parameters": {
+            "fold_infos": [
+              {
+                "crease_line_edge1": [
+                  -0.9,
+                  0
+                ],
+                "crease_line_edge2": [
+                  0.9,
+                  0
+                ],
+                "source_point": [
+                  0,
+                  0.7
+                ],
+                "target_point": [
+                  0,
+                  -0.7
+                ],
+                "source_layers": [
+                  1
+                ],
+                "theta": 180,
+                "fold_type": "mountain"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "diagonal_valley_fold_point_to_point",
+      "covers": [
+        "diagonal fold",
+        "point-to-point fold"
+      ],
+      "commands": [
+        {
+          "command_name": "fold",
+          "parameters": {
+            "fold_infos": [
+              {
+                "crease_line_edge1": [
+                  -0.8,
+                  -0.8
+                ],
+                "crease_line_edge2": [
+                  0.8,
+                  0.8
+                ],
+                "source_point": [
+                  0.6,
+                  -0.2
+                ],
+                "target_point": [
+                  -0.2,
+                  0.6
+                ],
+                "source_layers": [
+                  "all"
+                ],
+                "theta": 180,
+                "fold_type": "valley"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "edge_to_edge_fold_top_two_layers",
+      "covers": [
+        "edge-to-edge fold",
+        "top-two-layer fold"
+      ],
+      "commands": [
+        {
+          "command_name": "fold",
+          "parameters": {
+            "fold_infos": [
+              {
+                "crease_line_edge1": [
+                  0.25,
+                  -0.8
+                ],
+                "crease_line_edge2": [
+                  0.25,
+                  0.8
+                ],
+                "source_point": [
+                  0.75,
+                  0
+                ],
+                "target_point": [
+                  -0.25,
+                  0
+                ],
+                "source_layers": [
+                  1,
+                  2
+                ],
+                "theta": 180,
+                "fold_type": "valley"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "partial_90_degree_valley_fold",
+      "covers": [
+        "partial fold",
+        "valley fold"
+      ],
+      "commands": [
+        {
+          "command_name": "fold",
+          "parameters": {
+            "fold_infos": [
+              {
+                "crease_line_edge1": [
+                  0,
+                  -0.8
+                ],
+                "crease_line_edge2": [
+                  0,
+                  0.8
+                ],
+                "source_point": [
+                  0.6,
+                  0.2
+                ],
+                "target_point": [
+                  0,
+                  0.2
+                ],
+                "source_layers": [
+                  1
+                ],
+                "theta": 90,
+                "fold_type": "valley"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "partial_45_degree_mountain_fold",
+      "covers": [
+        "partial fold",
+        "mountain fold"
+      ],
+      "commands": [
+        {
+          "command_name": "fold",
+          "parameters": {
+            "fold_infos": [
+              {
+                "crease_line_edge1": [
+                  -0.8,
+                  0
+                ],
+                "crease_line_edge2": [
+                  0.8,
+                  0
+                ],
+                "source_point": [
+                  0.2,
+                  0.6
+                ],
+                "target_point": [
+                  0.2,
+                  0.42
+                ],
+                "source_layers": [
+                  "all"
+                ],
+                "theta": 45,
+                "fold_type": "mountain"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "vertical_precrease",
+      "covers": [
+        "precrease",
+        "fold and unfold"
+      ],
+      "commands": [
+        {
+          "command_name": "make_crease",
+          "parameters": {
+            "fold_infos": [
+              {
+                "crease_line_edge1": [
+                  0,
+                  -0.9
+                ],
+                "crease_line_edge2": [
+                  0,
+                  0.9
+                ],
+                "source_point": [
+                  0.7,
+                  0
+                ],
+                "target_point": [
+                  -0.7,
+                  0
+                ],
+                "source_layers": [
+                  "all"
+                ],
+                "theta": 180,
+                "fold_type": "valley"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "diagonal_precrease_top_layer",
+      "covers": [
+        "precrease",
+        "top-layer fold"
+      ],
+      "commands": [
+        {
+          "command_name": "make_crease",
+          "parameters": {
+            "fold_infos": [
+              {
+                "crease_line_edge1": [
+                  -0.75,
+                  0.75
+                ],
+                "crease_line_edge2": [
+                  0.75,
+                  -0.75
+                ],
+                "source_point": [
+                  0.5,
+                  0.5
+                ],
+                "target_point": [
+                  -0.5,
+                  -0.5
+                ],
+                "source_layers": [
+                  1
+                ],
+                "theta": 180,
+                "fold_type": "mountain"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "in_plane_point_alignment_theta_zero",
+      "covers": [
+        "in-plane movement",
+        "point-to-point alignment"
+      ],
+      "commands": [
+        {
+          "command_name": "fold",
+          "parameters": {
+            "fold_infos": [
+              {
+                "crease_line_edge1": [
+                  0,
+                  -0.7
+                ],
+                "crease_line_edge2": [
+                  0,
+                  0.7
+                ],
+                "source_point": [
+                  0.65,
+                  0.25
+                ],
+                "target_point": [
+                  0.25,
+                  0.25
+                ],
+                "source_layers": [
+                  1
+                ],
+                "theta": 0,
+                "fold_type": "valley"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "parallel_simultaneous_pleat",
+      "covers": [
+        "pleat fold",
+        "parallel folds",
+        "simultaneous fold"
+      ],
+      "commands": [
+        {
+          "command_name": "fold",
+          "parameters": {
+            "fold_infos": [
+              {
+                "crease_line_edge1": [
+                  -0.4,
+                  -0.8
+                ],
+                "crease_line_edge2": [
+                  -0.4,
+                  0.8
+                ],
+                "source_point": [
+                  -0.7,
+                  0
+                ],
+                "target_point": [
+                  -0.1,
+                  0
+                ],
+                "source_layers": [
+                  "all"
+                ],
+                "theta": 180,
+                "fold_type": "valley"
+              },
+              {
+                "crease_line_edge1": [
+                  0.4,
+                  -0.8
+                ],
+                "crease_line_edge2": [
+                  0.4,
+                  0.8
+                ],
+                "source_point": [
+                  0.7,
+                  0
+                ],
+                "target_point": [
+                  0.1,
+                  0
+                ],
+                "source_layers": [
+                  "all"
+                ],
+                "theta": 180,
+                "fold_type": "mountain"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "accordion_fold_sequence",
+      "covers": [
+        "accordion fold",
+        "pleat fold"
+      ],
+      "commands": [
+        {
+          "command_name": "fold",
+          "parameters": {
+            "fold_infos": [
+              {
+                "crease_line_edge1": [
+                  -0.8,
+                  0.6
+                ],
+                "crease_line_edge2": [
+                  0.8,
+                  0.6
+                ],
+                "source_point": [
+                  0,
+                  0.9
+                ],
+                "target_point": [
+                  0,
+                  0.3
+                ],
+                "source_layers": [
+                  "all"
+                ],
+                "theta": 180,
+                "fold_type": "valley"
+              }
+            ]
+          }
+        },
+        {
+          "command_name": "fold",
+          "parameters": {
+            "fold_infos": [
+              {
+                "crease_line_edge1": [
+                  -0.8,
+                  0.2
+                ],
+                "crease_line_edge2": [
+                  0.8,
+                  0.2
+                ],
+                "source_point": [
+                  0,
+                  -0.2
+                ],
+                "target_point": [
+                  0,
+                  0.6
+                ],
+                "source_layers": [
+                  "all"
+                ],
+                "theta": 180,
+                "fold_type": "mountain"
+              }
+            ]
+          }
+        },
+        {
+          "command_name": "fold",
+          "parameters": {
+            "fold_infos": [
+              {
+                "crease_line_edge1": [
+                  -0.8,
+                  -0.2
+                ],
+                "crease_line_edge2": [
+                  0.8,
+                  -0.2
+                ],
+                "source_point": [
+                  0,
+                  -0.6
+                ],
+                "target_point": [
+                  0,
+                  0.2
+                ],
+                "source_layers": [
+                  "all"
+                ],
+                "theta": 180,
+                "fold_type": "valley"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "kite_base_like_two_side_folds",
+      "covers": [
+        "kite fold / kite base",
+        "edge-to-edge fold"
+      ],
+      "commands": [
+        {
+          "command_name": "fold",
+          "parameters": {
+            "fold_infos": [
+              {
+                "crease_line_edge1": [
+                  0.5,
+                  -0.8
+                ],
+                "crease_line_edge2": [
+                  0.5,
+                  0.8
+                ],
+                "source_point": [
+                  1.0,
+                  0
+                ],
+                "target_point": [
+                  0.0,
+                  0
+                ],
+                "source_layers": [
+                  "all"
+                ],
+                "theta": 180,
+                "fold_type": "valley"
+              }
+            ]
+          }
+        },
+        {
+          "command_name": "fold",
+          "parameters": {
+            "fold_infos": [
+              {
+                "crease_line_edge1": [
+                  -0.5,
+                  -0.8
+                ],
+                "crease_line_edge2": [
+                  -0.5,
+                  0.8
+                ],
+                "source_point": [
+                  -1.0,
+                  0
+                ],
+                "target_point": [
+                  0.0,
+                  0
+                ],
+                "source_layers": [
+                  "all"
+                ],
+                "theta": 180,
+                "fold_type": "valley"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "blintz_four_corner_folds",
+      "covers": [
+        "blintz fold",
+        "point-to-point fold"
+      ],
+      "commands": [
+        {
+          "command_name": "fold",
+          "parameters": {
+            "fold_infos": [
+              {
+                "crease_line_edge1": [
+                  0,
+                  1
+                ],
+                "crease_line_edge2": [
+                  1,
+                  0
+                ],
+                "source_point": [
+                  1,
+                  1
+                ],
+                "target_point": [
+                  0,
+                  0
+                ],
+                "source_layers": [
+                  "all"
+                ],
+                "theta": 180,
+                "fold_type": "valley"
+              }
+            ]
+          }
+        },
+        {
+          "command_name": "fold",
+          "parameters": {
+            "fold_infos": [
+              {
+                "crease_line_edge1": [
+                  -1,
+                  0
+                ],
+                "crease_line_edge2": [
+                  0,
+                  1
+                ],
+                "source_point": [
+                  -1,
+                  1
+                ],
+                "target_point": [
+                  0,
+                  0
+                ],
+                "source_layers": [
+                  "all"
+                ],
+                "theta": 180,
+                "fold_type": "valley"
+              }
+            ]
+          }
+        },
+        {
+          "command_name": "fold",
+          "parameters": {
+            "fold_infos": [
+              {
+                "crease_line_edge1": [
+                  -1,
+                  0
+                ],
+                "crease_line_edge2": [
+                  0,
+                  -1
+                ],
+                "source_point": [
+                  -1,
+                  -1
+                ],
+                "target_point": [
+                  0,
+                  0
+                ],
+                "source_layers": [
+                  "all"
+                ],
+                "theta": 180,
+                "fold_type": "valley"
+              }
+            ]
+          }
+        },
+        {
+          "command_name": "fold",
+          "parameters": {
+            "fold_infos": [
+              {
+                "crease_line_edge1": [
+                  0,
+                  -1
+                ],
+                "crease_line_edge2": [
+                  1,
+                  0
+                ],
+                "source_point": [
+                  1,
+                  -1
+                ],
+                "target_point": [
+                  0,
+                  0
+                ],
+                "source_layers": [
+                  "all"
+                ],
+                "theta": 180,
+                "fold_type": "valley"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "triangle_base_diagonal_fold",
+      "covers": [
+        "triangle base",
+        "diagonal fold"
+      ],
+      "commands": [
+        {
+          "command_name": "fold",
+          "parameters": {
+            "fold_infos": [
+              {
+                "crease_line_edge1": [
+                  -1,
+                  -1
+                ],
+                "crease_line_edge2": [
+                  1,
+                  1
+                ],
+                "source_point": [
+                  0.8,
+                  -0.8
+                ],
+                "target_point": [
+                  -0.8,
+                  0.8
+                ],
+                "source_layers": [
+                  "all"
+                ],
+                "theta": 180,
+                "fold_type": "valley"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "insert_flap_under_visible_layer",
+      "covers": [
+        "insert under visible layer",
+        "tuck / insert"
+      ],
+      "commands": [
+        {
+          "command_name": "fold",
+          "parameters": {
+            "fold_infos": [
+              {
+                "crease_line_edge1": [
+                  -0.6,
+                  0.25
+                ],
+                "crease_line_edge2": [
+                  0.6,
+                  0.25
+                ],
+                "source_point": [
+                  0,
+                  0.75
+                ],
+                "target_point": [
+                  0,
+                  -0.25
+                ],
+                "source_layers": [
+                  1
+                ],
+                "theta": 180,
+                "fold_type": "valley"
+              }
+            ]
+          }
+        },
+        {
+          "command_name": "insert",
+          "parameters": {
+            "flap_point": [
+              0,
+              -0.1
+            ],
+            "pocket_point": [
+              0,
+              -0.35
+            ],
+            "destination": {
+              "mode": "under_layer",
+              "layer": 1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "insert_flap_between_visible_layers",
+      "covers": [
+        "insert between visible layers",
+        "tuck / insert"
+      ],
+      "commands": [
+        {
+          "command_name": "fold",
+          "parameters": {
+            "fold_infos": [
+              {
+                "crease_line_edge1": [
+                  -0.35,
+                  -0.7
+                ],
+                "crease_line_edge2": [
+                  -0.35,
+                  0.7
+                ],
+                "source_point": [
+                  -0.75,
+                  0
+                ],
+                "target_point": [
+                  0.05,
+                  0
+                ],
+                "source_layers": [
+                  1
+                ],
+                "theta": 180,
+                "fold_type": "valley"
+              }
+            ]
+          }
+        },
+        {
+          "command_name": "insert",
+          "parameters": {
+            "flap_point": [
+              0.0,
+              0
+            ],
+            "pocket_point": [
+              0.3,
+              0
+            ],
+            "destination": {
+              "mode": "between_layers",
+              "upper_layer": 1,
+              "lower_layer": 2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "rotate_clockwise_in_image_plane",
+      "covers": [
+        "rotate"
+      ],
+      "commands": [
+        {
+          "command_name": "rotate_3d",
+          "parameters": {
+            "theta_x": 0,
+            "theta_y": 0,
+            "theta_z": -90
+          }
+        }
+      ]
+    },
+    {
+      "name": "rotate_counterclockwise_in_image_plane",
+      "covers": [
+        "rotate"
+      ],
+      "commands": [
+        {
+          "command_name": "rotate_3d",
+          "parameters": {
+            "theta_x": 0,
+            "theta_y": 0,
+            "theta_z": 90
+          }
+        }
+      ]
+    },
+    {
+      "name": "flip_over_around_current_x_axis",
+      "covers": [
+        "turn over / flip over"
+      ],
+      "commands": [
+        {
+          "command_name": "rotate_3d",
+          "parameters": {
+            "theta_x": 180,
+            "theta_y": 0,
+            "theta_z": 0
+          }
+        }
+      ]
+    },
+    {
+      "name": "flip_over_around_current_y_axis",
+      "covers": [
+        "turn over / flip over"
+      ],
+      "commands": [
+        {
+          "command_name": "rotate_3d",
+          "parameters": {
+            "theta_x": 0,
+            "theta_y": 180,
+            "theta_z": 0
+          }
+        }
+      ]
+    },
+    {
+      "name": "reorient_target_region_with_3d_rotation",
+      "covers": [
+        "reorient target region"
+      ],
+      "commands": [
+        {
+          "command_name": "rotate_3d",
+          "parameters": {
+            "theta_x": 35,
+            "theta_y": -20,
+            "theta_z": 0
+          }
+        }
+      ]
+    }
+  ]
+}
