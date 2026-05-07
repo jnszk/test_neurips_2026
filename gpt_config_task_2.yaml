@@ -1,0 +1,26 @@
+name: "Your GPT Name"
+
+description: GPT for Task 2.
+
+instructions:
+  files:
+    - path: "instructions/task_2.md"
+
+conversation_starters: null
+
+knowledge:
+  files:
+    - path: "knowledge/command_specification.json"
+    - path: "knowledge/basic_examples.json"
+    - path: "knowledge/additional_useful_examples.json"
+
+recommended_model: "GPT-5.5 Thinking"
+
+capabilities:
+  web_search: false
+  apps: false
+  canvas: false
+  image_generation: false
+  code_interpreter_and_data_analysis: false
+
+actions: false
