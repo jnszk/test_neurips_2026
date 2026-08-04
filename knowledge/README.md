@@ -16,7 +16,11 @@
 
 ## Examples of practical commands
 
-- Pleat fold
-- Accordion fold
-- Blintz fold
-- Kite fold
+- Pleat fold  
+  ![Pleat fold](Practical_Command1.png)
+- Accordion fold  
+  ![Accordion fold](Practical_Command2.png)
+- Blintz fold  
+  ![Blintz fold](Practical_Command3.png)
+- Kite fold  
+  ![Kite fold](Practical_Command4.png)
