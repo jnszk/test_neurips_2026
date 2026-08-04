@@ -1,22 +1,22 @@
 ## Core Commands
 
-![Core command 1](core_command1.jpeg)
+![Core commands](core_command.png)
 
-- Valley fold
-- Mountain fold
+- Fold
+  https://github.com/jnszk/test_neurips_2026/blob/144bc73ed297c7c2e0bc99e5631a589af4c7af56/knowledge/command_specification.json#L147
+  - Valley fold
+  - Mountain fold
 - Make a crease
-- Turn Over
-
-
-![Core command 1](core_command1.jpeg)
-
-- Insert
+  https://github.com/jnszk/test_neurips_2026/blob/144bc73ed297c7c2e0bc99e5631a589af4c7af56/knowledge/command_specification.json#L160
 - Rotate
+  https://github.com/jnszk/test_neurips_2026/blob/144bc73ed297c7c2e0bc99e5631a589af4c7af56/knowledge/command_specification.json#L207
+- Insert
+  https://github.com/jnszk/test_neurips_2026/blob/144bc73ed297c7c2e0bc99e5631a589af4c7af56/knowledge/command_specification.json#L173
+
+
+## Examples of practical commands
+
 - Pleat fold
 - Accordion fold
-
-
-![Core command 1](core_command1.jpeg)
-
 - Blintz fold
 - Kite fold
